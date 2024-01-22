@@ -1,4 +1,7 @@
-<h1 align="center"> REALTIME DEBUG COMMAND - Documentation </h1>
+<h1 align="center"> 
+Yunasawa の Library <br></br>
+Realtime Debug Command - Documentation 
+</h1>
 
 <h4 align="center"> Documentation contains everything about REALTIME DEBUG COMMAND.</h4>
 
