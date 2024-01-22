@@ -22,5 +22,6 @@ Realtime Debug Command - Documentation
 <h3><i> From Menu Item / Hierarchy </i></h3>
 - First, you can select an object in hierarchy to be parent of RDC
 - Right-click in hierarchy, select <kbd>YのN</kbd> > <kbd>2D</kbd> > <kbd>Realtime Debug Command</kbd> or select <kbd>Tools</kbd> > <kbd>YのN</kbd> > <kbd>Create Object</kbd> > <kbd>2D</kbd> > <kbd>Realtime Debug Command</kbd>.
+
 (In case you don't select a canvas)
 
