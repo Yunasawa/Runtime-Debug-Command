@@ -33,3 +33,11 @@ Realtime Debug Command - Documentation
 - Drag it into an object that you want it to be the parent of RDC.
 
 <h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
+
+- I recommend you to create a new Debug Command right inside <kbd>Assets > Yunasawa の Library > Realtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles.
+- Here is a sample code for a Debug Command, I call it DC_Debug. It is used to display a message inside log window.
+
+![Screenshot 2024-01-23 023140](https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/25c62a7c-0f90-41df-9de0-9c654f4ee8be)
+
+
+
