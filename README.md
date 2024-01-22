@@ -17,7 +17,7 @@ Realtime Debug Command - Documentation
 <h2> ★ Table On Contents </h2>
 
 - <a href="#how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
-
+- <a href="#how-to-create-new-debug-command"> ★ How to create new Debug Command </a><br>
 
 <h2><div id="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </div></h2>
 
@@ -31,3 +31,5 @@ Realtime Debug Command - Documentation
 
 - Find RDC in <kbd>Assets</kbd> > <kbd>Yunasawa の Library</kbd> > <kbd>Realtime Debug Command</kbd> > <kbd>Prefabs</kbd> > <kbd>Debug Command Panel</kbd>.
 - Drag it into an object that you want it to be the parent of RDC.
+
+<h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
