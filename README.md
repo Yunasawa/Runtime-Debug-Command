@@ -16,7 +16,7 @@ Realtime Debug Command - Documentation
 
 <h2> ★ Table On Contents </h2>
 
-- <a href="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
+- <a href="#how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
 
 
 <h2><div id="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </div></h2>
