@@ -39,7 +39,6 @@ Realtime Debug Command - Documentation
 - Here is a sample code for a Debug Command, I call it DC_Debug. It is used to display a message inside log window with a general command of /debug selection message
 
 ![Screenshot 2024-01-23 023140](https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/25c62a7c-0f90-41df-9de0-9c654f4ee8be)
--->
 
 <ul>
 <li> As you can see on the sample picture, now I will show you how to make one step by step: </li>
@@ -49,10 +48,19 @@ Realtime Debug Command - Documentation
 <img align="center" width="90%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6f2146ba-77cb-4a9b-bce9-f9bda03e47c7"><br>
   As you can see, <b>CommandNode</b> has 3 properties, Nodes, Suggestions and StartWith. 
    
-  - <b>Nodes</b> is the general name of node in a command. For example, in the command <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, <b>Nodes</b> are "debug", "selection", "message".
-  - <b>Suggestions</b> will show up when you typing the commands so you can Tab to finish it automatically, when you typing the "selection" node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
-  - And for "StartWith", if you enable this only the suggestions which start with the word you're typing will appear; like you are in 
-  <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new CommandNode object with inputing params are Nodes, Suggestions and StartWith.</li>
+  - <b>Nodes</b> is the general name of node in a command. For example, in the command <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, <b>Nodes</b> are <i>"debug", "selection", "message"</i>.
+  - <b>Suggestions</b> will show up when you typing the commands so you can Tab to finish it automatically, when you typing the <i>"selection"</i> node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
+  - And for <b>StartWith</b>, if you enable this only the suggestions which start with the word you're typing will appear. You are in <i>"selection"</i> node, then you type "n" then only "notify" appears, but if it's disabled, "warning", "caution" and "notify" will show up (Those 3 contain "n").
+  <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new <b>CommandNode</b> objects with inputing params are <b>Nodes, Suggestions and StartWith</b>.</li>
+  -->
+  - This is node 0: <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/78392b09-fad0-4134-84b8-dd65d9c15881">, it have <i>"debug"</i> as <b>Nodes</b>, <i>"debug"</i> as <b>Suggestions</b> and <b>StartWith</b> is <i>true</i>.
+  - Node 1: <img align="center" height="16" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/e3f42f3b-74c4-44f6-923b-05c89ffd50e1"> is similar.
+  - Node 2: <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2926c2a6-b92b-499d-a39f-79afe045c986">, because I don't need <b>Suggestions</b> for this so I don't put anything inside, and <b>StartWith</b> is defaulted by <i>false</i>.
+
+
+
+
+  
   </ul>
 </ul>
  
