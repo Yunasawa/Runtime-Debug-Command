@@ -1,3 +1,4 @@
+<!--
 <h1 align="center"> 
 Yunasawa の Library <br></br>
 Realtime Debug Command - Documentation 
@@ -35,9 +36,25 @@ Realtime Debug Command - Documentation
 <h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
 
 - I recommend you to create a new Debug Command right inside <kbd>Assets > Yunasawa の Library > Realtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles.
-- Here is a sample code for a Debug Command, I call it DC_Debug. It is used to display a message inside log window.
+- Here is a sample code for a Debug Command, I call it DC_Debug. It is used to display a message inside log window with a general command of /debug selection message
 
 ![Screenshot 2024-01-23 023140](https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/25c62a7c-0f90-41df-9de0-9c654f4ee8be)
+-->
 
+<ul>
+<li> As you can see on the sample picture, now I will show you how to make one step by step: </li>
+  <ul>
+  <li> First, create a new class/object (name it whatever you want, I recommend to put DC_ in the beginning), inherited from <b>DebugCommand</b>. </li>
+  <li> Make a constructor for it, now you have to concentrate on this step. <b>CommandNodes</b> is a <b>List</b> of <b>CommandNode</b>. Here is <b>CommandNode</b> class: </li>
+<img align="center" width="90%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6f2146ba-77cb-4a9b-bce9-f9bda03e47c7"><br>
+  As you can see, <b>CommandNode</b> has 3 properties, Nodes, Suggestions and StartWith. 
+   
+  - <b>Nodes</b> is the general name of node in a command. For example, in the command <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, <b>Nodes</b> are "debug", "selection", "message".
+  - <b>Suggestions</b> will show up when you typing the commands so you can Tab to finish it automatically, when you typing the "selection" node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
+  - And for "StartWith", if you enable this only the suggestions which start with the word you're typing will appear; like you are in 
+  <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new CommandNode object with inputing params are Nodes, Suggestions and StartWith.</li>
+  </ul>
+</ul>
+ 
 
 
