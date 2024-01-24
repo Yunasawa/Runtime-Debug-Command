@@ -65,14 +65,10 @@ Realtime Debug Command - Documentation
  <li> Here is another sample for Debug Command called DC_Time, used to manage time in game. </li>
 <br><div align="center"><img width="60%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa980f35-8821-4600-8fcb-bd47299e8b0d"></div>
 
- <li> After you created a new Debug Command, there're 2 things you have to notice:
-    <ul>
-    <!-- <img align="right" width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2c34de3c-b1c1-4460-b5e4-72c9e026d8c8"> -->
-    <li> First, in <b>DebugCommandList</b> class, find this method:</li><br>
-    Then add your new Debug Command inside the <b>switch</b> with the <b>case</b> is the first node in <b>CommandNodes</b>, and return that debug command.
-    <!-- <img align="right" width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/17634a86-6f1c-427b-b5de-3320cc85090b"> -->
-    <li> Second, </li>
-    </ul>
+ <li> After you created a new Debug Command, there're 2 things you have to notice: </li>
+    <div align="right"><img width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2c34de3c-b1c1-4460-b5e4-72c9e026d8c8"></div>
+    <div align="right"><img width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa700afb-80c2-47fc-bb10-31d6a18ad1b6"></div>
+    <li> asdasd HHH  </li>
 </ul>
 
 
