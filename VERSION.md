@@ -27,6 +27,9 @@ Realtime Debug Command - Version
  <br></br>
  <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/89f69b3a-ee33-477f-8a73-26931b8f02a7">
  <b><i>✓ Detail Added</i></b>: <b>Suggestion Panel</b> shows you the suggestions for the command you're typing, you can easily disable this panel or decide the maximum amount of suggestions can appear inside <kbd>DebugCommandEditor</kbd> component.
+</details>
 
-
+<details>
+ <summary><b>Released ✨ 1.0 ✨</b></summary>
+ <br>
 </details>
