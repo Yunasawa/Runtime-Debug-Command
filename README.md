@@ -44,13 +44,13 @@ Realtime Debug Command - Documentation
 
 <li> As you can see on the sample picture, now I will show you how to make one step by step: </li>
    <ul>
-   <li> First, create a new class/object (name it whatever you want, I recommend to put DC_ in the beginning), inherited from <b>DebugCommand</b>. </li>
+   <li> First, create a new class (name it whatever you want, I recommend to put DC_ in the beginning), inherited from <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">. </li>
    <li> Make a constructor for it, now you have to concentrate on this step. <b>CommandNodes</b> is a <b>List</b> of <b>CommandNode</b>. Here is <b>CommandNode</b> class: </li>
 <img align="center" width="90%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6f2146ba-77cb-4a9b-bce9-f9bda03e47c7"><br>
    As you can see, <b>CommandNode</b> has 3 properties, Nodes, Suggestions and StartWith. 
    
    - <b>Nodes</b> is the general name of node in a command. For example, in the command <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, <b>Nodes</b> are <i>"debug", "selection", "message"</i>.
-   - <b>Suggestions</b> will show up when you typing the commands so you can Tab to finish it automatically, when you typing the <i>"selection"</i> node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
+   - <b>Suggestions</b> will show up when you typing the commands so you can <kbd>Tab</kbd> to finish it automatically, when you typing the <i>"selection"</i> node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
    - And for <b>StartWith</b>, if you enable this only the suggestions which start with the word you're typing will appear. You are in <i>"selection"</i> node, then you type "n" then only "notify" appears, but if it's disabled, "warning", "caution" and "notify" will show up (Those 3 contain "n").
    <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new <b>CommandNode</b> objects with inputing params are <b>Nodes, Suggestions and StartWith</b>.</li>
 
@@ -70,7 +70,7 @@ Realtime Debug Command - Documentation
      <td>
       <ul>
       <li>Find this <b>CreateCommand()</b> method in <b>DebugCommandList</b> class.</li>
-      <li>Inside this <b>switch</b>, add the first node of commands as <b>case</b> and return the <b>commmand</b> like this.</li>
+      <li>Inside this <b>switch</b>, add the first node of commands as <b>case</b> and return the <b>command</b> like this.</li>
       </ul>
      </td>
      <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2c34de3c-b1c1-4460-b5e4-72c9e026d8c8"></div></td>
@@ -85,6 +85,6 @@ Realtime Debug Command - Documentation
      <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa700afb-80c2-47fc-bb10-31d6a18ad1b6"></div></td>
    </tr>
  </table>
- <li> Finish those thing and you now can use <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside your project. </li>
+ <li> Finish those thing and you now can use your own <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside your project. </li>
 </ul>
 
