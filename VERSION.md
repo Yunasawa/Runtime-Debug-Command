@@ -12,3 +12,7 @@ Realtime Debug Command - Version
  <img src="https://img.shields.io/badge/Contact-yunasawa200@gmail.com-purple.svg" alt="email">
 </p>
 
+<h2> ★ About </h2>
+
+- <b><i>Realtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
+- See <a href="https://github.com/Yunasawa/Realtime-Debug-Command/blob/main/VERSION.md"><b>Version</b></a> for more updated features.
