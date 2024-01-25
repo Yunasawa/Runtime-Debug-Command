@@ -30,6 +30,9 @@ Realtime Debug Command - Version
 </details>
 
 <details>
- <summary><b>Released ✨ 1.0 ✨</b></summary>
+ <summary><b>Comming ✨ 1.1 ✨</b></summary>
  <br>
+ <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/00f6e25e-b98e-45cb-978d-399d55a08373">
+ <b><i>✓ Detail Added</i></b>: <b>Command Log</b> 
+ <br></br>
 </details>
