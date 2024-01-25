@@ -4,7 +4,7 @@ Yunasawa の Library <br></br>
 Realtime Debug Command - Documentation 
 </h1>
 
-<h4 align="center"> Documentation shows you how to use REALTIME DEBUG COMMAND.</h4>
+<h4 align="center"> <i>Documentation</i> shows you how to use <i>REALTIME DEBUG COMMAND</i>.</h4>
 
 <p align="center">
  <img src="https://img.shields.io/badge/Script-DOCUMENTATION-blue.svg" alt="script">
