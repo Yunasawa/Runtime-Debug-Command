@@ -21,6 +21,7 @@ Realtime Debug Command - Documentation
 
 - <a href="#how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
 - <a href="#how-to-create-new-debug-command"> ★ How to create new Debug Command </a><br>
+- <a href="#how-to-create-new-debug-command"> ★ How to use Debug Command Editor </a><br>
 
 <h2><div id="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </div></h2>
 
