@@ -1,4 +1,4 @@
-<!--
+<!--    -->
 <h1 align="center"> 
 Yunasawa の Library <br></br>
 Realtime Debug Command - Documentation 
@@ -7,8 +7,9 @@ Realtime Debug Command - Documentation
 <h4 align="center"> Documentation contains everything about REALTIME DEBUG COMMAND.</h4>
 
 <p align="center">
- <img src="https://img.shields.io/badge/Script-DOCUMENTATION-blue.svg" alt="Unity Download Link">
- <img src="https://img.shields.io/badge/Contact-yunasawa200@gmail.com-purple.svg" alt="License MIT">
+ <img src="https://img.shields.io/badge/Script-DOCUMENTATION-blue.svg" alt="script">
+ <img src="https://img.shields.io/badge/Contact-yunasawa200@gmail.com-purple.svg" alt="email">
+ <img src="https://img.shields.io/fbadge/Debug%20Command-008F64">
 </p>
 
 <h2> ★ About </h2>
@@ -36,8 +37,8 @@ Realtime Debug Command - Documentation
 <h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
 
 <ul>
-<li> I recommend you to create a new Debug Command right inside <kbd>Assets > Yunasawa の Library > Realtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles. </li>
-<li> Here is a sample code for a Debug Command, I call it DC_Debug. It is used to display a message inside log window with a general command of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">. </li>
+<li> I recommend you to create a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside <kbd>Assets > Yunasawa の Library > Realtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles. </li>
+<li> Here is a sample code for a <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">, I call it DC_Debug. It is used to display a message inside log window with a general command of <img align="center" width="22.5%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">. </li>
 
 <br><img align="center" width="95%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d88bff67-1df0-4f82-b548-b7239a411c65"></br>
 
@@ -60,16 +61,30 @@ Realtime Debug Command - Documentation
   <li> After finish the constructor, call an override void named <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6fde6893-8b8d-4c79-87a2-3dc6bae6c448">, <b>value</b> is an array of words separated by <i>space</i>. For example, in command <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/77c7f55e-a044-45ad-bfbe-aeb4b7eb2e8a">, <b>value</b> is <i>{ "debug", "log", "Hello", "world" }</i>. Inside this method, you can do your own code to handle the command just like above sample code.</li>
   </ul>
     
-    -->
-    
- <li> Here is another sample for Debug Command called DC_Time, used to manage time in game. </li>
-<br><div align="center"><img width="60%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa980f35-8821-4600-8fcb-bd47299e8b0d"></div>
+ <li> Here is another sample for <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> called DC_Time, used to manage time in game. </li>
+<br><div align="center"><img width="60%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa980f35-8821-4600-8fcb-bd47299e8b0d"></div><br>
 
- <li> After you created a new Debug Command, there're 2 things you have to notice: </li>
-    <div align="right"><img width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2c34de3c-b1c1-4460-b5e4-72c9e026d8c8"></div>
-    <div align="right"><img width="40%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa700afb-80c2-47fc-bb10-31d6a18ad1b6"></div>
-    <li> asdasd HHH  </li>
+ <li> After you created a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">, there're 2 things you have to notice: </li><br>
+ <table>
+   <tr> 
+     <td>
+      <ul>
+      <li>Find this <b>CreateCommand()</b> method in <b>DebugCommandList</b> class.</li>
+      <li>Inside this <b>switch</b>, add the first node of commands as <b>case</b> and return the <b>commmand</b> like this.</li>
+      </ul>
+     </td>
+     <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2c34de3c-b1c1-4460-b5e4-72c9e026d8c8"></div></td>
+   </tr>
+   <tr> 
+     <td>
+      <ul>
+      <li>Then find this <b>UpdateCommandLibrary()</b> method in <b>DebugCommandManager</b> class.</li>
+      <li>Add the first node of the command inside the list of string like this.</li></li>
+      </ul>
+     </td>
+     <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa700afb-80c2-47fc-bb10-31d6a18ad1b6"></div></td>
+   </tr>
+ </table>
+ <li> Finish those thing and you now can use <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside your project. </li>
 </ul>
-
-
 
