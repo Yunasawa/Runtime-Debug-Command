@@ -45,7 +45,7 @@ Realtime Debug Command - Version
 </details>
 
 <details>
- <summary><b>Comming ✨ 1.2 ✨</b></summary>
+ <summary><b>Coming ✨ 1.2 ✨</b></summary>
  <br>
 </details>
 
