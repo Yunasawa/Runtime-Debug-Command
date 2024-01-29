@@ -1,7 +1,7 @@
 <!--    -->
 <h1 align="center"> 
 Yunasawa の Library <br></br>
-Realtime Debug Command - Version 
+Runtime Debug Command - Version 
 </h1>
 
 <h4 align="center"> <b><i>Version</i></b> shows you all available and updated details and features of <i>REALTIME DEBUG COMMAND</i>.</h4>
