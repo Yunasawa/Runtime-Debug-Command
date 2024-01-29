@@ -4,7 +4,7 @@ Yunasawa の Library <br></br>
 Runtime Debug Command - Version 
 </h1>
 
-<h4 align="center"> <b><i>Version</i></b> shows you all available and updated details and features of <i>REALTIME DEBUG COMMAND</i>.</h4>
+<h4 align="center"> <b><i>Version</i></b> shows you all available and updated details and features of <i>RUNTIME DEBUG COMMAND</i>.</h4>
 
 <p align="center">
  <img src="https://img.shields.io/badge/Script-VERSION-red.svg" alt="script">
@@ -14,7 +14,7 @@ Runtime Debug Command - Version
 
 <h2> ★ About </h2>
 
-- <b><i>Realtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
+- <b><i>Runtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
 - See <a href="https://github.com/Yunasawa/Realtime-Debug-Command/blob/main/README.md"><b>Documentation</b></a> for more usage information.
 
 <h2> ★ Version Log </h2>
