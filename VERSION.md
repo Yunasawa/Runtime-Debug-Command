@@ -27,12 +27,22 @@ Realtime Debug Command - Version
  <br></br>
  <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/89f69b3a-ee33-477f-8a73-26931b8f02a7">
  <b><i>✓ Detail Added</i></b>: <b>Suggestion Panel</b> shows you the suggestions for the command you're typing, you can easily disable this panel or decide the maximum amount of suggestions can appear inside <kbd>DebugCommandEditor</kbd> component.
+ <br></br><br></br>
 </details>
 
 <details>
- <summary><b>Comming ✨ 1.1 ✨</b></summary>
+ <summary><b>Released ✨ 1.1 ✨</b></summary>
  <br>
- <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/00f6e25e-b98e-45cb-978d-399d55a08373">
- <b><i>✓ Detail Added</i></b>: <b>Command Log</b> 
+ <b><i>✓ Detail Added</i></b>: Now you can press <b>Slash</b> <kbd>/</kbd> to turn on Debug Command
+ <br></br>
+ <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa577ebf-67ac-4e16-8298-3005deca1985">
+ <b><i>✓ Detail Added</i></b>: <b>Command Message</b> shows the results of commands you executed. You can customize your own messages for commands you created and change the maximum amount of commands showed on Log Panel. 
+ <br></br><br></br><br></br>
+ <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/0d406aba-0d01-4bc6-8ba0-9a3556601105">
+ <b><i>✓ Detail Added</i></b>: <b>Command History</b> gives you ability to rewrite the executed commands by pressing <kbd>Up Arrow</kbd> or <kbd>Down Arrow</kbd>.
+ <br></br>
  <br></br>
 </details>
+
+
+
