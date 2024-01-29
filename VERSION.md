@@ -20,7 +20,7 @@ Realtime Debug Command - Version
 <h2> ★ Version Log </h2>
 
 <details>
- <summary><b>Released ✨ 1.0 ✨</b></summary>
+ <summary><b>Released ✨ 1.0 ✨</b> (2 Updates)</summary>
  <br>
  <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/00f6e25e-b98e-45cb-978d-399d55a08373">
  <b><i>✓ Detail Added</i></b>: <b>Command Prompt</b> helps you to see the rest of command that you're typing, the suggestion will be the first one in suggestions list and it will show up in faded color. You can press <kbd>Tab</kbd> to automatically finish that command.
@@ -31,7 +31,7 @@ Realtime Debug Command - Version
 </details>
 
 <details>
- <summary><b>Released ✨ 1.1 ✨</b></summary>
+ <summary><b>Released ✨ 1.1 ✨</b> (3 Updates)</summary>
  <br>
  <b><i>✓ Detail Added</i></b>: Now you can press <b>Slash</b> <kbd>/</kbd> to turn on Debug Command
  <br></br>
@@ -42,6 +42,11 @@ Realtime Debug Command - Version
  <b><i>✓ Detail Added</i></b>: <b>Command History</b> gives you ability to rewrite the executed commands by pressing <kbd>Up Arrow</kbd> or <kbd>Down Arrow</kbd>.
  <br></br>
  <br></br>
+</details>
+
+<details>
+ <summary><b>Comming ✨ 1.2 ✨</b></summary>
+ <br>
 </details>
 
 
