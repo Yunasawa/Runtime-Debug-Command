@@ -4,7 +4,7 @@ Yunasawa の Library <br></br>
 Runtime Debug Command - Documentation 
 </h1>
 
-<h4 align="center"> <i>Documentation</i> shows you how to use <i>REALTIME DEBUG COMMAND</i>.</h4>
+<h4 align="center"> <i>Documentation</i> shows you how to use <i>RUNTIME DEBUG COMMAND</i>.</h4>
 
 <p align="center">
  <img src="https://img.shields.io/badge/Script-DOCUMENTATION-blue.svg" alt="script">
@@ -14,7 +14,7 @@ Runtime Debug Command - Documentation
 
 <h2> ★ About </h2>
 
-- <b><i>Realtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
+- <b><i>Runtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
 - See <a href="https://github.com/Yunasawa/Realtime-Debug-Command/blob/main/VERSION.md"><b>Version</b></a> for more updated features.
 
 <h2> ★ Table On Contents </h2>
@@ -28,18 +28,18 @@ Runtime Debug Command - Documentation
 <h3><i> From Menu Item / Hierarchy </i></h3>
 
 - First, you can select an object in hierarchy to be parent of RDC.
-- Right-click in hierarchy, select <kbd>YのL</kbd> > <kbd>2D</kbd> > <kbd>Realtime Debug Command</kbd> or select <kbd>Tools</kbd> > <kbd>YのL</kbd> > <kbd>Create Object</kbd> > <kbd>2D</kbd> > <kbd>Realtime Debug Command</kbd> on window bar.
+- Right-click in hierarchy, select <kbd>YのL</kbd> > <kbd>2D</kbd> > <kbd>Runtime Debug Command</kbd> or select <kbd>Tools</kbd> > <kbd>YのL</kbd> > <kbd>Create Object</kbd> > <kbd>2D</kbd> > <kbd>Runtime Debug Command</kbd> on window bar.
 - In case you don't select a canvas to be the parent, a new Canvas and Event System will be created automatically.
 
 <h3><i> From Prefab / Asset </i></h3>
 
-- Find RDC in <kbd>Assets</kbd> > <kbd>Yunasawa の Library</kbd> > <kbd>Realtime Debug Command</kbd> > <kbd>Prefabs</kbd> > <kbd>Debug Command Panel</kbd>.
+- Find RDC in <kbd>Assets</kbd> > <kbd>Yunasawa の Library</kbd> > <kbd>Runtime Debug Command</kbd> > <kbd>Prefabs</kbd> > <kbd>Debug Command Panel</kbd>.
 - Drag it into an object that you want it to be the parent of RDC.
 
 <h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
 
 <ul>
-<li> I recommend you to create a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside <kbd>Assets > Yunasawa の Library > Realtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles. </li>
+<li> I recommend you to create a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside <kbd>Assets > Yunasawa の Library > Runtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles. </li>
 <li> Here is a sample code for a <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">, I call it DC_Debug. It is used to display a message inside log window with a general command of <img align="center" width="22.5%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">. </li>
 
 <br><img align="center" width="95%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d88bff67-1df0-4f82-b548-b7239a411c65"></br>
