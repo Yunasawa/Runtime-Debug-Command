@@ -1,7 +1,7 @@
 <!--    -->
 <h1 align="center"> 
 Yunasawa の Library <br></br>
-Realtime Debug Command - Documentation 
+Runtime Debug Command - Documentation 
 </h1>
 
 <h4 align="center"> <i>Documentation</i> shows you how to use <i>REALTIME DEBUG COMMAND</i>.</h4>
