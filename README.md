@@ -96,3 +96,6 @@ Runtime Debug Command - Documentation
 </ul>
 
 <h2><div id="how-to-use-debug-command-setting"> ★ How to use Debug Command Setting </div></h2>
+
+You can select <b>Debug Command GUI</b> object to make your custom setting for RDC.
+
