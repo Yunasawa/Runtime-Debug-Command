@@ -16,6 +16,7 @@ Runtime Debug Command - Documentation
 
 - <b><i>Runtime Debug Command</i></b> provides you an input field used to handle and debug your logics, events or you can use it as a feature of you game. 
 - See <a href="https://github.com/Yunasawa/Realtime-Debug-Command/blob/main/VERSION.md"><b>Version</b></a> for more updated features.
+- This tool is not really perfect so if you have any errors or bugs or difficulties when use this, please feedback and I will response as soon as possible.
 
 <h2> ★ Table On Contents </h2>
 
