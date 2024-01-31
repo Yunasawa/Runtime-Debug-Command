@@ -26,7 +26,7 @@ Runtime Debug Command - Documentation
 
 <h2><div id="how-to-create-debug-command-gui"> ★ How to create Debug Command GUI </div></h2>
 
-<h3><i> From Menu Item / Hierarchy </i></h3>
+<h3><i> From Menu Item / Hierarchy (Currently not supported)</i></h3>
 
 - First, you can select an object in hierarchy to be parent of RDC.
 - Right-click in hierarchy, select <kbd>YのL</kbd> > <kbd>2D</kbd> > <kbd>Runtime Debug Command</kbd> or select <kbd>Tools</kbd> > <kbd>YのL</kbd> > <kbd>Create Object</kbd> > <kbd>2D</kbd> > <kbd>Runtime Debug Command</kbd> on window bar.
