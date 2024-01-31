@@ -40,7 +40,6 @@ Runtime Debug Command - Documentation
 <h2><div id="how-to-create-new-debug-command"> ★ How to create new Debug Command </div></h2>
 
 <ul>
-<li> I recommend you to create a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside <kbd>Assets > Yunasawa の Library > Runtime Debug Command > Custom Commands > Commands</kbd>, otherwise you will have some small troubles. </li>
 <li> Here is a sample code for a <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">, I call it DC_Debug. It is used to display a message inside log window with a general command of <img align="center" width="22.5%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">. </li>
 
 <br><img align="center" width="95%" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/51174105-4fd7-44b7-95b8-bd02a1c53e89"></br>
