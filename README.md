@@ -42,23 +42,24 @@ Runtime Debug Command - Documentation
 <li> I recommend you to create a new <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside <kbd>Assets > Yunasawa の Library > Runtime Debug Command > Scripts > Debug Commands</kbd>, otherwise you will have some small troubles. </li>
 <li> Here is a sample code for a <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">, I call it DC_Debug. It is used to display a message inside log window with a general command of <img align="center" width="22.5%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">. </li>
 
-<br><img align="center" width="95%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d88bff67-1df0-4f82-b548-b7239a411c65"></br>
+<br><img align="center" width="95%" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/51174105-4fd7-44b7-95b8-bd02a1c53e89"></br>
 
 <li> As you can see on the sample picture, now I will show you how to make one step by step: </li>
    <ul>
    <li> First, create a new class (name it whatever you want, I recommend to put DC_ in the beginning), inherited from <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a">. </li>
    <li> Make a constructor for it, now you have to concentrate on this step. <b>CommandNodes</b> is a <b>List</b> of <b>CommandNode</b>. Here is <b>CommandNode</b> class: </li>
-<img align="center" width="90%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6f2146ba-77cb-4a9b-bce9-f9bda03e47c7"><br>
-   As you can see, <b>CommandNode</b> has 3 properties, Nodes, Suggestions and StartWith. 
-   
+<img align="center" width="90%" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/ff7f6d97-4a9a-4c6d-a003-9bbbfb9911d1"><br>
+   As you can see, <b>CommandNode</b> has 3 properties, Nodes, Suggestions, MustStartWith and Customable. 
+
    - <b>Nodes</b> is the general name of node in a command. For example, in the command <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, <b>Nodes</b> are <i>"debug", "selection", "message"</i>.
    - <b>Suggestions</b> will show up when you typing the commands so you can <kbd>Tab</kbd> to finish it automatically, when you typing the <i>"selection"</i> node of <img align="center" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/1288567b-6599-4c4c-8be6-65fc37375adb">, a list of <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/d8f93816-51b1-4f4a-ba94-164b0ec15fcd"> will show up.
-   - And for <b>StartWith</b>, if you enable this only the suggestions which start with the word you're typing will appear. You are in <i>"selection"</i> node, then you type "n" then only "notify" appears, but if it's disabled, "warning", "caution" and "notify" will show up (Those 3 contain "n").
-   <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new <b>CommandNode</b> objects with inputing params are <b>Nodes, Suggestions and StartWith</b>.</li>
+   - <b>MustStartWith</b>, if you enable this only the suggestions which start with the word you're typing will appear. You are in <i>"selection"</i> node, then you type "n" then only "notify" appears, but if it's disabled, "warning", "caution" and "notify" will show up (Those 3 contain "n").
+   - <b>Customable</b> allows you to set that node is customable or not, it means you can type anything in that node and no need to follow the suggestions.
+   <li> Back to sample DebugCommand, you can see inside the constructor, I assign <b>CommandNodes</b> with a new list, inside I make new <b>CommandNode</b> objects with inputing params are <b>Nodes, Suggestions, MustStartWith, Customable</b>.</li>
 
-   - This is node 0: <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/78392b09-fad0-4134-84b8-dd65d9c15881">, it have <i>"debug"</i> as <b>Nodes</b>, <i>"debug"</i> as <b>Suggestions</b> and <b>StartWith</b> is <i>true</i>.
-   - Node 1: <img align="center" height="16" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/e3f42f3b-74c4-44f6-923b-05c89ffd50e1"> is similar.
-   - Node 2: <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/2926c2a6-b92b-499d-a39f-79afe045c986">, because I don't need <b>Suggestions</b> for this so I don't put anything inside, and <b>StartWith</b> is defaulted by <i>false</i>.
+   - Node 0: <img align="center" height="17.5" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/73f9921b-fa12-4fcf-9a41-9f80aad73740">, it have <i>"debug"</i> as <b>Nodes</b>, <i>"debug"</i> as <b>Suggestions</b> and <b>MustStartWith</b> is <i>true</i>.
+   - Node 1: <img align="center" height="17.5" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/943a8252-299f-4190-900a-e6d870ff2397"> is similar.
+   - Node 2: <img align="center" height="17.5" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/8890b2aa-673c-4f56-8c4b-d3082feb3ce7">, because I don't need <b>Suggestions</b> for this so I don't put anything inside, <b>StartWith</b> is defaulted by <i>false</i> and this node is <b>Customable</b>, you can type anything in this node.
 
   <li> After finish the constructor, call an override void named <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/6fde6893-8b8d-4c79-87a2-3dc6bae6c448">, <b>value</b> is an array of words separated by <i>space</i>. For example, in command <img align="center" height="17.5" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/77c7f55e-a044-45ad-bfbe-aeb4b7eb2e8a">, <b>value</b> is <i>{ "debug", "log", "Hello", "world" }</i>. Inside this method, you can do your own code to handle the command just like above sample code.</li>
   </ul>
