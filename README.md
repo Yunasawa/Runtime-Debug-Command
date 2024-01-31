@@ -19,11 +19,11 @@ Runtime Debug Command - Documentation
 
 <h2> ★ Table On Contents </h2>
 
-- <a href="#how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
+- <a href="#how-to-create-debug-command-gui"> ★ How to create Debug Command GUI </a><br>
 - <a href="#how-to-create-new-debug-command"> ★ How to create new Debug Command </a><br>
 - <a href="#how-to-use-debug-command-setting"> ★ How to use Debug Command Setting </a><br>
 
-<h2><div id="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </div></h2>
+<h2><div id="how-to-create-debug-command-gui"> ★ How to create Debug Command GUI </div></h2>
 
 <h3><i> From Menu Item / Hierarchy </i></h3>
 
