@@ -85,13 +85,12 @@ Runtime Debug Command - Documentation
    <tr> 
      <td>
       <ul>
-      <li>Then find this <b>UpdateCommandLibrary()</b> method in <b>DebugCommandManager</b> class.</li>
+      <li>Then find this <b>CommandList</b> inside <b>DebugCommandObject</b> class.</li>
       <li>Add the first node of the command inside the list of string like this.</li></li>
       </ul>
      </td>
-     <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa700afb-80c2-47fc-bb10-31d6a18ad1b6"></div></td>
+     <td><div align="right"><img width="100%" src="https://github.com/Yunasawa/Runtime-Debug-Command/assets/113672166/fd4704a8-a119-4dfb-800f-bec2c2f3ea8e"></div></td>
    </tr>
  </table>
  <li> Finish those thing and you now can use your own <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside your project. </li>
 </ul>
-
