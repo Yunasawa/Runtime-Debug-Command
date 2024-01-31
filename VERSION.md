@@ -33,7 +33,7 @@ Runtime Debug Command - Version
 <details>
  <summary><b>Released ✨ 1.1 ✨</b> (3 Updates)</summary>
  <br>
- <b><i>✓ Detail Added</i></b>: Now you can press <b>Slash</b> <kbd>/</kbd> to turn on Debug Command
+ <b><i>✓ Detail Added</i></b>: Now you can press <b>Slash</b> <kbd>/</kbd> or <b>T</b> <kbd>T</kbd> to turn on Debug Command
  <br></br>
  <img align="right" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/fa577ebf-67ac-4e16-8298-3005deca1985">
  <b><i>✓ Detail Added</i></b>: <b>Command Message</b> shows the results of commands you executed. You can customize your own messages for commands you created and change the maximum amount of commands showed on Log Panel. 
