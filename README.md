@@ -21,7 +21,7 @@ Runtime Debug Command - Documentation
 
 - <a href="#how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </a><br>
 - <a href="#how-to-create-new-debug-command"> ★ How to create new Debug Command </a><br>
-- <a href="#how-to-create-new-debug-command"> ★ How to use Debug Command Editor </a><br>
+- <a href="#how-to-use-debug-command-setting"> ★ How to use Debug Command Setting </a><br>
 
 <h2><div id="how-to-create-debug-command-panel"> ★ How to create Debug Command Panel </div></h2>
 
@@ -95,4 +95,4 @@ Runtime Debug Command - Documentation
  <li> Finish those thing and you now can use your own <img width="12%" src="https://github.com/Yunasawa/Realtime-Debug-Command/assets/113672166/829b30b5-10ac-4ade-8d2b-1dab8ce6af3a"> right inside your project. </li>
 </ul>
 
-<h2><div id="how-to-create-debug-command-panel"> ★ ★ How to use Debug Command Setting </div></h2>
+<h2><div id="how-to-use-debug-command-setting"> ★ ★ How to use Debug Command Setting </div></h2>
